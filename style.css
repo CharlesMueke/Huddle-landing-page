@@ -1,0 +1,254 @@
+body{
+    font-family: "Open Sans";
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: -8%;
+    margin-left: 5%;
+}
+
+.contains img{
+    width: 100%;
+}
+.btn{
+    margin-right: 15%;
+    width: 100px;
+    border: 1px solid  hsl(321, 100%, 78%);
+    border-radius: 30px;
+    background-color: transparent;
+    color:  hsl(321, 100%, 78%);
+    transition: 0.5s all ease-in-out;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.write{
+    text-align: center;
+    padding: 100px;
+}
+h1{
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 700;
+}
+p{
+    color: rgb(74, 73, 73);
+}
+.btn1{
+    width: 260px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 2%;
+    background-color:  hsl(322, 100%, 66%);
+    border: 1px solid  hsl(322, 100%, 66%);
+    color: aliceblue;
+    transition: 0.5s all ease-in-out;
+}
+.btn2{
+    width: 90px;
+    height: 30px;
+    background-color:  hsl(322, 100%, 66%);
+    border: 1px solid  hsl(322, 100%, 66%);
+    color: aliceblue;
+    border-radius: 10px;
+    margin-left: 5%;
+    transition: 0.5s all ease-in-out;
+}
+.btn2:hover{
+    transform: scale(1.2);
+}
+.btn1:hover{
+transform: scale(1.2);
+color: black;
+}
+.pic{
+    text-align: center;
+}
+.pic img{
+    width: 100%;
+}
+.for{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+.for span{
+    font-size: 70px;
+    font-weight: 700;
+}
+.for p{
+    margin-left: 10%;
+    color: rgb(130, 128, 128);
+}
+.conv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 17%;
+}
+.conv img{
+    width: 30%;
+    margin-top: -5%;
+}
+h2{
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(40, 57, 57);
+}
+.conv p{
+    color: rgb(40, 57, 57);
+    font-size: 13px;
+}
+.build{
+    text-align: center;
+    margin-top: 15%;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 7%;  
+    
+    color: aliceblue;
+}
+.footer{
+    background-color: rgb(36, 40, 42);
+}
+.field{
+    height: 26px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: aliceblue;
+}
+.fir p{
+    font-size: 13px;
+    color: aliceblue;
+}
+.fir h3{
+    text-transform: uppercase;
+}
+.fir h1{
+    font-family: "Barlow";
+    font-size: 55px;
+}
+
+.news p{
+    font-size: 13px;
+    color: aliceblue;
+}
+i{
+    color: aliceblue;
+    width: 10%;
+}
+.news{
+    margin-top: 3%;
+}
+.mobile{
+    display: none;
+}
+@media only screen and (max-width:390px){
+
+    br{content:' ';}
+    br:after{content:' ';}
+    .container{
+        margin-left: 0%;
+    }
+    .contains img{
+        width: 100%;
+    }
+    .container img{
+        width: 35%;
+    }
+    .btn{
+        width: 84px;
+    }
+    .write{
+    padding: 0;
+    margin-top: 20%;
+    }
+    .btn1{
+        margin-top: 6%;
+    }
+    .pic{
+        margin-top: 17%;
+    }
+    .pic img {
+        width: 100%;
+    }
+    .for{
+        display: grid;
+        margin-top: 0;
+    }
+    .first{
+        margin-top: 40%;
+    }
+    .conv{
+        display: grid;
+        margin-top: 35%;
+        text-align: center;
+    }
+    .mobile{
+        display: flex;
+    }
+    .desktop{
+        display: none;
+    }
+    .conv img {
+        width: 100%;
+    }
+    h2{
+        margin-top: 14%;
+    }
+    .grow{
+        text-align: center;
+    }
+    .build {
+        margin-top: 20%;
+    }
+    .foot {
+        display: grid;
+        margin-top: 13%;
+        margin-left: 8%;
+    }
+    .field{
+        width: 324px;
+    }
+    .btn2{
+        margin-left: 70%;
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .container{
+        margin-top: -9%;
+    }
+    .pic img{
+        width: 84%;
+    }
+    .for{
+        justify-content: space-around;
+    }
+    .contains img{
+        width: 100%;
+    }
+    .foot{
+        justify-content: space-around;
+    }
+    .news {
+        margin-top: 7%;
+    }
+    .icons {
+        margin-left: 13%;
+    }
+}
+    
